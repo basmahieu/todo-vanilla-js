@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,800&display=swap');
+
+body {
+  background: #121212;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 400px;
+  margin-top: 10vh;
+}
+
+input[type='text'],
+input[type='text']:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 1);
+  max-width: 400px;
+}
+.todos li {
+  background: #272727;
+}
+.delete {
+  cursor: pointer;
+}
+
+.far {
+  color: #bb86fb;
+}
